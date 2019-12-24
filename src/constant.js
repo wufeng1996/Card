@@ -21,7 +21,7 @@ html {
 .token.property{ color: rgb(187,137,0); }
 .token.punctuation{ color: yellow; }
 .token.function{ color: rgb(42,161,152); }
-/* 加点 3D 效果鸭 */
+/* 加点 3D 效果 */
 html{
   perspective: 1000px;
 }
@@ -32,7 +32,7 @@ html{
   -webkit-transform: rotateY(10deg) translateZ(-100px) ;
           transform: rotateY(10deg) translateZ(-100px) ;
 }
-/* 接下来我给自己准备一个贺卡编辑器 */
+/* 接下来准备一个贺卡编辑器 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -45,8 +45,7 @@ html{
 
 `;
 
-const defaultText2 = `/* emmm，言简意赅，又不失意境，就这些吧。。
-不过，这个贺卡好像着实有点太朴素（丑）
+const defaultText2 = `/* emmm啊啊，贺卡有点丑啊, 橙子妈要吐槽了
 `;
 
 const defaultText3 = `/* 那就加点样式吧 */
@@ -82,7 +81,7 @@ const defaultText3 = `/* 那就加点样式吧 */
 
 
 /*
- * 大功告成了，希望你会喜欢(๑¯∀¯๑)
+ * 大功告成了,不知道你会不会喜欢. 好了, 现在开始找出贺卡的秘密吧~.~
  */
 `
 
@@ -90,13 +89,12 @@ const defaultText3 = `/* 那就加点样式吧 */
 export default [
   {
     id: "5d289e6d-5a68-135f-ae69-888fbda06316",
-    nickName: "露西",
+    nickName: "橙子",
     message: [
       `/*
-  * Inspired by 「会动的简历」
-  * hi，露西
-  * 好久不见
-  * 临近圣诞，给你用代码画个贺卡吧
+  * hi，橙子
+  * 圣诞节到了, 有没有收到礼物呀. 
+  * 这个圣诞是不是过得委屈啊, 没气氛还要赶作业. Take it easy, 用代码给你画个贺卡吧
   */
  ` + defaultText1,
       defaultText2,
@@ -106,91 +104,8 @@ export default [
 ### Merry  Christmas
 ------------------
 #### 心之所愿，无所不成
-    `
-  },
-  {
-    id: "4fa95321-4089-6699-97a4-7a56f5a27225",
-    nickName: "阿翔",
-    message: [
-      `/*
-  * Inspired by 「会动的简历」
-  * hi，阿翔
-  * 很久没给你写过圣诞贺卡了
-  * 今年又是没有练字的一年。。
-  * 临近圣诞，也来不及练，就给你用代码画个贺卡吧
-  */
- ` + defaultText1,
-      defaultText2,
-      defaultText3
-    ],
-    card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
-    `
-  },
-  {
-    id: "2b99a873-2826-53ba-2177-a5fbfe9163f",
-    nickName: "浴巾",
-    message: [
-      `/*
-  * Inspired by 「会动的简历」
-  * hi，浴巾
-  * 今年抽到给你送礼物，遂精挑细选了一波
-  * 买单的时候发现，居然还没到150的金额下限=。=
-  * 预算不够，心意补救吧
-  * 就给你用代码画个贺卡吧
-  */
- ` + defaultText1,
-      defaultText2,
-      defaultText3
-    ],
-    card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
-    `
-  },
-  {
-    id: "a9b00b85-ea32-a980-1cc9-9b4cb898055f",
-    nickName: "吉姐",
-    message: [
-      `/*
-  * Inspired by 「会动的简历」
-  * hi，吉姐
-  * 很久没在游戏上见到大家了，甚是想念
-  * 临近圣诞，就给你们画个贺卡吧
-  */
- ` + defaultText1,
-      defaultText2,
-      defaultText3
-    ],
-    card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
-    `
-  },
-  {
-    id: "aaa23af3-a7b9-b4c5-d98e-be7d999664d9",
-    nickName: "南辉",
-    message: [
-      `/*
-  * Inspired by 「会动的简历」
-  * hi，南辉
-  * 入职以来，承蒙关照
-  * 以后估计也会继续叨扰你
-  * 无以为报
-  * 临近圣诞，就给你画个贺卡吧
-  */
- ` + defaultText1,
-      defaultText2,
-      defaultText3
-    ],
-    card: `
-### Merry  Christmas
-------------------
-#### 心之所愿，无所不成
+<hr>
+####圣诞节的密码啊
     `
   }
 ];
