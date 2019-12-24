@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/christmas-card/static/css/main.80efff49.chunk.css",
+    "main.js": "/christmas-card/static/js/main.a2a1faa0.chunk.js",
+    "main.js.map": "/christmas-card/static/js/main.a2a1faa0.chunk.js.map",
+    "runtime-main.js": "/christmas-card/static/js/runtime-main.d3c651f5.js",
+    "runtime-main.js.map": "/christmas-card/static/js/runtime-main.d3c651f5.js.map",
+    "static/js/2.7e208509.chunk.js": "/christmas-card/static/js/2.7e208509.chunk.js",
+    "static/js/2.7e208509.chunk.js.map": "/christmas-card/static/js/2.7e208509.chunk.js.map",
+    "index.html": "/christmas-card/index.html",
+    "precache-manifest.a3d3e438e160be0d7471cd22cdc63bd6.js": "/christmas-card/precache-manifest.a3d3e438e160be0d7471cd22cdc63bd6.js",
+    "service-worker.js": "/christmas-card/service-worker.js",
+    "static/css/main.80efff49.chunk.css.map": "/christmas-card/static/css/main.80efff49.chunk.css.map",
+    "static/js/2.7e208509.chunk.js.LICENSE": "/christmas-card/static/js/2.7e208509.chunk.js.LICENSE",
+    "static/media/App.css": "/christmas-card/static/media/liukai.ff7e6297.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3c651f5.js",
+    "static/js/2.7e208509.chunk.js",
+    "static/css/main.80efff49.chunk.css",
+    "static/js/main.a2a1faa0.chunk.js"
+  ]
+}
